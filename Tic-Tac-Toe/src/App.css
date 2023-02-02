@@ -1,0 +1,78 @@
+.board-row {
+  width: 40%;
+  display: flex;
+}
+
+.board-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  font-size: 6rem;
+  border: 1px solid black;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 0.5rem;
+  width: 10rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color:rgb(49, 69, 185);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.colorX{
+  color: orangered;
+}
+
+.colorO{
+  color: dodgerblue;
+}
+
+button:hover{
+  transform: scale(0.95);
+}
+
+.reset{
+  margin-top: 1rem;
+}
+
+.score {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+
+.x-score {
+  color: rgb(255, 70, 37);
+  border-bottom: 5px solid rgb(255, 70, 37);
+  border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.o-score {
+  color: rgb(44, 135, 255);
+  border-bottom: 5px solid rgb(44, 135, 255);
+  border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+
+
